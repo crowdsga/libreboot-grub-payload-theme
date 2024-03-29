@@ -1,3 +1,17 @@
+How to transform to libreboot grub theme
+
+need: background.png + theme.txt ， a font.pf2 need to load
+
+modify the theme.txt（i delete the icons ）
+
+use cbfstool，add grub2.cfg+theme.ext+font.pf2 to your libreboot rom，change background.png
+
+finally，flashrom（or flashprog）
+
+you can download my example
+
+
+
 ## 🔖 Contents
 
 - <b>[🖥️ GRUB Themes](#grub-themes)</b>
